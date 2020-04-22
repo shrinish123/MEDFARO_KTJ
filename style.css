@@ -507,7 +507,8 @@ header {
   position: fixed;
   z-index: 20;
   width: 100%;
-  border-radius: 2.5rem; }
+  border-radius: 2.5rem;
+  height: 6rem; }
 
 .logo-real {
   width: 5rem;
@@ -654,6 +655,21 @@ nav a:hover {
   position: absolute;
   top: 90%;
   left: 90%; }
+  @media (max-width: 75em) {
+    .home-btn {
+      position: absolute;
+      top: 89%;
+      left: 85%; } }
+  @media (max-width: 56.25) {
+    .home-btn {
+      position: absolute;
+      top: 89%;
+      left: 71%; } }
+  @media (max-width: 37.5em) {
+    .home-btn {
+      position: absolute;
+      top: 87%;
+      left: 83%; } }
 
 .row {
   max-width: 140rem;
@@ -755,3 +771,9 @@ nav a:hover {
   .book__form {
     width: 50%;
     padding: 6rem; }
+
+.svg {
+  text-align: center;
+  z-index: 200;
+  background-color: rgba(0, 238, 255, 0.842);
+  margin: 0 auto; }
