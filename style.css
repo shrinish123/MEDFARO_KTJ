@@ -160,7 +160,7 @@ body {
   margin-left: 2.5rem; }
 
 .price {
-  color: white;
+  color: black;
   font-size: 3rem;
   font-weight: 700; }
 
@@ -249,8 +249,8 @@ body {
 
 .home {
   position: fixed;
-  transform: translate(100%, 90%);
-  background-image: linear-gradient(to right, #2998ff, #5643fa); }
+  background-image: linear-gradient(to right, #ffb900, #ff7730);
+  z-index: 50; }
 
 .composition {
   position: relative; }
@@ -326,7 +326,7 @@ body {
   box-shadow: 0 1.5rem 4rem #434343;
   border-radius: 10px;
   position: relative;
-  background-image: linear-gradient(to right bottom, #7ed56f, #28b485);
+  background-image: linear-gradient(to right bottom, #00c6ff, #0072ff);
   box-sizing: border-box; }
   .card-most:hover {
     transform: scale(1.05, 1.05); }
@@ -342,10 +342,6 @@ body {
       background-image: url(images/bought2.jpg); }
     .card-most__image--3 {
       background-image: url(images/bought3.jpg); }
-    .card-most__image--4 {
-      background-image: url(images/bought4.jpg); }
-    .card-most__image--5 {
-      background-image: url(images/bought5.jpg); }
     .card-most__image--6 {
       background-image: url(images/bought6.jpg); }
     .card-most__image--7 {
@@ -363,7 +359,8 @@ body {
     left: 3rem;
     width: 75%; }
   .card-most__heading-span {
-    padding: 1rem 1.5rem; }
+    padding: 1rem 1.5rem;
+    color: black; }
 
 .story {
   width: 75%;
@@ -397,7 +394,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    text-tranform: uppercase;
+    text-transform: uppercase;
     font-size: 1.7rem;
     text-align: center;
     opacity: 0;
@@ -576,7 +573,7 @@ nav li {
   background-image: linear-gradient(to right, #ff0084, #33001b);
   border-radius: 3px; }
   .special:hover {
-    transform: rotate(45deg); }
+    transform: scale3d(2); }
 
 nav a {
   color: white;
@@ -639,7 +636,7 @@ nav a:hover {
 
 .logobox {
   position: absolute;
-  top: 2.7rem;
+  top: 1.4rem;
   left: 5rem; }
 
 .logo {
@@ -652,6 +649,11 @@ nav a:hover {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center; }
+
+.home-btn {
+  position: absolute;
+  top: 90%;
+  left: 90%; }
 
 .row {
   max-width: 140rem;
@@ -729,10 +731,10 @@ nav a:hover {
 
 .section-surprize {
   background-color: light-grey;
-  padding: 6.5rem 0; }
+  padding: 6.5rem 8rem; }
 
 .most-bought {
-  background-color: white;
+  background-image: white;
   padding: 6.5rem 0; }
 
 .stories {
