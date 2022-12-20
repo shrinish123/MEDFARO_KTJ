@@ -1,4 +1,3 @@
 # MEDFARO_KTJ
 A website for Web Development Workshop Assignment 1
-Changes were these
-And lets see what happens now
+These are my changes at the same line to ereslove the merge conflicts And lets see what happens now
